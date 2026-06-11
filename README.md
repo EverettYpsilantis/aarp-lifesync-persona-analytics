@@ -40,3 +40,35 @@ thousands of plans. Feeds directly into LifeSync's plan recommendation logic for
 persona-matched Medicare guidance.
 
 ## Pipeline
+
+RAND HRS Survey Data
+↓
+Persona_RAND.ipynb
+(K-Means clustering → 3 personas)
+↓
+AARP_Topic_Intelligence_Pipeline.ipynb
+(Trends + RSS scraping → content gaps)
+↓
+Cross-reference gaps to persona needs
+↓
+aarp_marketing_plan.ipynb          Health_plan_analysis.ipynb
+(Channel & messaging strategy)     (Medicare plan matching)
+↓                                   ↓
+LifeSync Personalization Layer
+
+## Tech Stack
+Python, scikit-learn, pandas, numpy, sentence-transformers, 
+pytrends, BeautifulSoup, matplotlib, seaborn, ipywidgets
+
+## Data Sources
+- RAND Health and Retirement Study (HRS), Wave 15 (2020)
+- Pew Research Internet & Technology Survey
+- CDC BRFSS prevalence rates (synthetic simulation)
+- CMS Medicare Advantage Landscape & Enrollment Performance (2026)
+- Google Trends (pytrends API)
+- RSS feeds: Next Avenue, AARP.org
+
+## Notes
+Raw data files are excluded from this repository. Survey datasets 
+require institutional access via RAND and Pew Research portals.
+
