@@ -1,7 +1,7 @@
 # aarp-lifesync-persona-analytics
 K-Means persona segmentation, topic intelligence pipeline, and Medicare plan analysis built for AARP consulting engagement
 
-# AARP LifeSync — Persona Analytics & Content Intelligence
+# AARP LifeSync: Persona Analytics & Content Intelligence
 
 A consulting engagement delivering data-driven persona segmentation, content gap 
 analysis, and Medicare plan intelligence to support AARP's LifeSync personalization platform.
